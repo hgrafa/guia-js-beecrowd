@@ -16,7 +16,7 @@ Muitos programadores sentem dificuldades em solucionar os problemas do beecrowd 
 
 Primeiramente, crie um arquivo chamado 'stdin' em sua pasta. Iremos usar esse arquivo para ler os valores do nosso problema!
 
-<img src= 'imagensReadme/img1.png' >
+<img src= 'assets/img1.png' >
 
 Agora, vamos resolver o problema [1001](https://www.beecrowd.com.br/judge/pt/problems/view/1001) do Beecrowd. Para isso, temos que iniciar declarando o nosso input:
 
@@ -30,7 +30,7 @@ Não iremos entrar muito em detalhes de como o 'fs' funciona, pois iremos usar a
 
 Ok, nosso input está pronto! Vamos testar? Entre no arquivo stdin e digite 10 e 9 um em cada linha, em seguida digite `console.log(input)` no código.
 
-<img src= 'imagensReadme/img2.png'>
+<img src= 'assets/img2.png'>
 
 Perceba que foi impresso 10 e 9, conforme digitados no arquivo stdin! Pois o nosso input está lendo os valores digitados naquele arquivo.
 
@@ -44,7 +44,7 @@ Digite isso no seu código. Perceba que declaramos uma variável chamada `valore
 
 Vamos imprimir a variável _valoresRecebidos_ para acompanhar o processo:
 
-<img src= 'imagensReadme/img3.png'>
+<img src= 'assets/img3.png'>
 
 Perceba que foi retornada uma lista com os valores de acordo como nos separamos eles! No caso usando uma quebra de linhas igual o problema pede.
 
@@ -80,7 +80,7 @@ console.log('X = ' + X)
 
 Vamos testa-lo para ver se ta funcionando conforme o beecrowd deseja!
 
-<img src= 'imagensReadme/img4.png'>
+<img src= 'assets/img4.png'>
 
 Aeee! Bingo! Você conseguiu resolver o problema 1001 do beecrowd! Não pera... Ainda falta um maldito detalhe 😜. Sabe a nosso input que ta lendo o arquivo '`stdin`'? Esse arquivo tem o mesmo nome do arquivo que compila e verifica as entradas no própio beecrowd! Ou seja, com esse comando vamos estar acessando as pastas do beecrowd e receber os valores da entrada. Só que o diretório do arquivo stdin do beecrowd é diferente do nosso! Se enviarmos assim, nossa solução irá dar `Runtime error`. Para resolver esse problema, devemos apenas adicionar o "/dev/stdin" no nosso parâmetro da função 😀.
 
