@@ -105,16 +105,7 @@ var X = A + B
 console.log('X = ' + X)
 ```
 
-Parabéns!! Você conseguiu resolver o problema 1001 do beecrowd com JavaScript, a linguagem mais bonita da internet (brincadeira... ou não...).
-
-Se esse conteúdo foi útil para você, por favor clique na star do respositório, pois ficarei muito feliz em saber que de alguma maneira fiz algo útil para alguém da nossa comunidade. Me adiciona lá no beecrowd pra gente ver nossas conquistas! Basta clicar aqui: [GabrielDuete-beecrowd](https://www.beecrowd.com.br/judge/pt/profile/412152).
-
-Muito obrigado por ter lido até aqui e ter aprendido, você é incrível mesmo 💜. Nunca desista dos estudos e continue focado mesmo com tantas dificuldades e coisas pra estudar, eu sei que você consegue!
-
-<cite> 
-<blockquote>"COM TRABALHO DURO UM FRACASSADO CONSEGUE ATÉ MESMO SUPERAR UM GÊNIO." - Rock Lee
-</blockquote>
-</cite>
+Parabéns!! Você conseguiu resolver o problema 1001 do beecrowd com JavaScript, a linguagem mais bonita da internet.
 
 </p>
 
